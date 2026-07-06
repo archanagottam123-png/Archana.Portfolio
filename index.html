@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary SEO Meta Tags -->
+    <title>Archana Gottam | Graduate Software Engineer Portfolio</title>
+    <meta name="title" content="Archana Gottam | Graduate Software Engineer Portfolio">
+    <meta name="description" content="Portfolio of a Graduate Software Engineer based in Chennai, seeking entry-level software developer opportunities. Specialized in web development, Java, Python, and modern UI.">
+    <meta name="keywords" content="Software Engineer, Graduate Engineer, Web Developer, Portfolio, Chennai Jobs, React Developer, Frontend Engineer, Entry-level developer">
+    <meta name="author" content="Archana Gottam">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Archana Gottam | Graduate Software Engineer Portfolio">
+    <meta property="og:description" content="Portfolio of a Graduate Software Engineer based in Chennai, seeking entry-level software developer opportunities.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=1200&q=80">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Archana Gottam | Graduate Software Engineer Portfolio">
+    <meta property="twitter:description" content="Portfolio of a Graduate Software Engineer based in Chennai.">
+    <meta property="twitter:image" content="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=1200&q=80">
+
+    <!-- Fonts (Outfit for clean display, JetBrains Mono for tech/code theme) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Third-Party CSS Libraries -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Core CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background glowing accents -->
+    <div class="glow-sphere glow-1"></div>
+    <div class="glow-sphere glow-2"></div>
+    <div class="glow-sphere glow-3"></div>
+
+    <!-- Navigation Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-accent"></span>G.Archana<span class="logo-accent"></span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#recruiter-dash" class="nav-link">Recruiter Info</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="assets/Archana-Gottam-Resume.pdf" class="btn btn-outline" download id="nav-resume-btn">
+                    <i data-lucide="download" class="icon-sm"></i> Resume
+                </a>
+                <button class="menu-toggle" aria-label="Toggle Navigation Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="hero-content" data-aos="fade-up">
+                <div class="terminal-badge">
+                    <span class="pulse-dot"></span>
+                    <span class="terminal-text">Ready for Hire // Chennai, India</span>
+                </div>
+                <h1 class="hero-title">
+                    Hi, I'm <span class="text-gradient">Archana Gottam</span>
+                </h1>
+                <h2 class="hero-subtitle">
+                    I am a <span id="typed-text" class="text-highlight"></span>
+                </h2>
+                <p class="hero-description">
+                    Graduate Engineering student transitioning to a professional career. Passionate about writing clean, efficient code and building responsive, user-first web applications. Actively looking for a Software Engineer role to deploy my engineering skills.
+                </p>
+                <div class="hero-ctas">
+                    <a href="#contact" class="btn btn-primary" id="hero-hire-btn">
+                        <i data-lucide="mail" class="icon-sm"></i> Hire Me
+                    </a>
+                    <a href="#projects" class="btn btn-secondary" id="hero-work-btn">
+                        View Work <i data-lucide="arrow-right" class="icon-sm"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recruiter Dashboard Section -->
+        <section class="recruiter-dash" id="recruiter-dash">
+            <div class="section-container" data-aos="fade-up">
+                <div class="section-header">
+                    <span class="section-tag">&lt;quick_view&gt;</span>
+                    <h2 class="section-title">Recruiter Dashboard</h2>
+                    <p class="section-subtitle">Key information summarizing my profile for quick screening.</p>
+                </div>
+                
+                <div class="dashboard-card glass-panel">
+                    <div class="dashboard-header">
+                        <div class="dashboard-window-controls">
+                            <span class="window-dot red"></span>
+                            <span class="window-dot yellow"></span>
+                            <span class="window-dot green"></span>
+                        </div>
+                        <div class="dashboard-title">candidate_overview.json</div>
+                    </div>
+                    <div class="dashboard-body">
+                        <div class="dashboard-grid">
+                            <div class="dash-item">
+                                <div class="dash-icon-box">
+                                    <i data-lucide="graduation-cap"></i>
+                                </div>
+                                <div class="dash-info">
+                                    <h3>Education</h3>
+                                    <p>Graduate Engineering Student (B.E.)</p>
+                                </div>
+                            </div>
+                            <div class="dash-item">
+                                <div class="dash-icon-box">
+                                    <i data-lucide="briefcase"></i>
+                                </div>
+                                <div class="dash-info">
+                                    <h3>Target Role</h3>
+                                    <p>Software Engineer</p>
+                                </div>
+                            </div>
+                            <div class="dash-item">
+                                <div class="dash-icon-box">
+                                    <i data-lucide="map-pin"></i>
+                                </div>
+                                <div class="dash-info">
+                                    <h3>Location</h3>
+                                    <p>Chennai, Tamil Nadu, India (Open to relocate)</p>
+                                </div>
+                            </div>
+                            <div class="dash-item">
+                                <div class="dash-icon-box">
+                                    <i data-lucide="clock"></i>
+                                </div>
+                                <div class="dash-info">
+                                    <h3>Availability</h3>
+                                    <p>Immediate / Ready to Join</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dashboard-footer-notes">
+                            <p><span class="comment-text">// Quick Takeaway:</span> Highly motivated graduate developer with hands-on project experience in web architectures, software engineering, and Artificial Intelligence. Equipped with solid algorithmic foundations, quick adaptability, and a strong drive to learn.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="section-container" data-aos="fade-up">
+                <div class="section-header">
+                    <span class="section-tag">&lt;about_me&gt;</span>
+                    <h2 class="section-title">About Me</h2>
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-text" data-aos="fade-right">
+                        <p>
+                            As a recently graduated engineer, I have spent the last few years combining the theoretical principles of computer engineering with the practical craft of building software. My journey started with coding simple scripts and quickly evolved into designing fully responsive web applications.
+                        </p>
+                        <p>
+                            I specialize in writing clean HTML, CSS, and JavaScript, while diving into modern frameworks like React and databases like MySQL. I have a problem-solving mindset and enjoy building solutions that improve accessibility and performance.
+                        </p>
+                        <p>
+                            Living in Chennai—one of India's biggest tech hubs—I am eager to join a dynamic development team where I can contribute to meaningful codebases, learn from experienced mentors, and grow rapidly as a software engineer.
+                        </p>
+                    </div>
+                    <div class="about-graphic glass-panel" data-aos="fade-left">
+                        <div class="code-terminal">
+                            <div class="terminal-header">
+                                <span>terminal.sh</span>
+                            </div>
+                            <div class="terminal-body font-mono">
+                                <p><span class="cyan-txt">archana $</span> cat bio.txt</p>
+                                <p class="terminal-output">
+                                    NAME: Archana Gottam<br>
+                                    LOCATION: Chennai, India<br>
+                                    ROLE: Software Engineer<br>
+                                    PASSION: Web Development & System Design<br>
+                                    CURRENT_FOCUS: Building interactive layouts & full-stack components
+                                </p>
+                                <p><span class="cyan-txt">archana $</span> <span class="blink-cursor">_</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills" id="skills">
+            <div class="section-container" data-aos="fade-up">
+                <div class="section-header">
+                    <span class="section-tag">&lt;stack&gt;</span>
+                    <h2 class="section-title">Skills & Technologies</h2>
+                    <p class="section-subtitle">Here is the technical toolkit I've developed during my engineering studies.</p>
+                </div>
+                
+                <div class="skills-grid">
+                    <!-- Frontend -->
+                    <div class="skill-category glass-panel" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="category-header">
+                            <i data-lucide="layout" class="cyan-txt"></i>
+                            <h3>Frontend Development</h3>
+                        </div>
+                        <ul class="skills-list">
+                            <li><span>HTML5 / Semantic Web</span> <span class="tag">Advanced</span></li>
+                            <li><span>CSS3 / Flexbox & Grid</span> <span class="tag">Advanced</span></li>
+                            <li><span>JavaScript (ES6+)</span> <span class="tag">Intermediate</span></li>
+                            <li><span>React.js</span> <span class="tag">Basic-Intermediate</span></li>
+                            <li><span>Responsive Design</span> <span class="tag">Advanced</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- Backend / Logic -->
+                    <div class="skill-category glass-panel" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="category-header">
+                            <i data-lucide="server" class="green-txt"></i>
+                            <h3>Backend & Databases</h3>
+                        </div>
+                        <ul class="skills-list">
+                            <li><span>Java</span> <span class="tag">Intermediate</span></li>
+                            <li><span>Python (AI/ML models)</span> <span class="tag">Intermediate</span></li>
+                            <li><span>Artificial Intelligence</span> <span class="tag">Intermediate</span></li>
+                            <li><span>SQL (MySQL/PostgreSQL)</span> <span class="tag">Intermediate</span></li>
+                            <li><span>REST APIs</span> <span class="tag">Intermediate</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- Tools / Workflow -->
+                    <div class="skill-category glass-panel" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="category-header">
+                            <i data-lucide="cpu" class="purple-txt"></i>
+                            <h3>Tools & Methods</h3>
+                        </div>
+                        <ul class="skills-list">
+                            <li><span>Git & GitHub</span> <span class="tag">Intermediate</span></li>
+                            <li><span>VS Code / IDEs</span> <span class="tag">Advanced</span></li>
+                            <li><span>OOP Concepts</span> <span class="tag">Advanced</span></li>
+                            <li><span>Data Structures & Algos</span> <span class="tag">Intermediate</span></li>
+                            <li><span>Linux Terminal</span> <span class="tag">Basic</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects" id="projects">
+            <div class="section-container" data-aos="fade-up">
+                <div class="section-header">
+                    <span class="section-tag">&lt;portfolio&gt;</span>
+                    <h2 class="section-title">Projects</h2>
+                    <p class="section-subtitle">A collection of academic and personal projects demonstrating my software engineering capabilities.</p>
+                </div>
+
+                <!-- Projects Filter Buttons -->
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="web">Web Dev</button>
+                    <button class="filter-btn" data-filter="software">Software Eng</button>
+                </div>
+
+                <!-- Projects Grid -->
+                <div class="projects-grid">
+                    <!-- Project 1: Web Dev -->
+                    <div class="project-card glass-panel" data-category="web" data-aos="fade-up" data-aos-delay="100">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1586281380349-632531db7ed4?auto=format&fit=crop&w=800&q=80" alt="Developer Job Board Project Screenshot" class="project-img">
+                            <div class="project-overlay">
+                                <a href="https://github.com/archanagottam123-png/github-portfolio" target="_blank" class="project-link" aria-label="GitHub Repo"><i data-lucide="github"></i></a>
+                                <a href="#" class="project-link" aria-label="Live Demo"><i data-lucide="external-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-meta">Web Application</span>
+                            <h3 class="project-title">RecruitLink - Job Board</h3>
+                            <p class="project-desc">A portal tailored for recruiters to post jobs and search for graduate candidate profiles. Features dynamic search filtering, user authentication, and profile builder.</p>
+                            <div class="project-tags">
+                                <span class="proj-tag">React</span>
+                                <span class="proj-tag">CSS Grid</span>
+                                <span class="proj-tag">Node.js</span>
+                                <span class="proj-tag">MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: Software -->
+                    <div class="project-card glass-panel" data-category="software" data-aos="fade-up" data-aos-delay="200">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&q=80" alt="Task Manager Console App Screenshot" class="project-img">
+                            <div class="project-overlay">
+                                <a href="https://github.com/archanagottam123-png/github-portfolio" target="_blank" class="project-link" aria-label="GitHub Repo"><i data-lucide="github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-meta">Software Tool</span>
+                            <h3 class="project-title">TaskForge - Task Scheduler</h3>
+                            <p class="project-desc">A Java-based CLI and GUI scheduling engine implementing greedy algorithms to optimize process task timelines. Solves job prioritization and deadline tracking.</p>
+                            <div class="project-tags">
+                                <span class="proj-tag">Java</span>
+                                <span class="proj-tag">OOPs</span>
+                                <span class="proj-tag">Algorithms</span>
+                                <span class="proj-tag">Swing</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: Web Dev -->
+                    <div class="project-card glass-panel" data-category="web" data-aos="fade-up" data-aos-delay="300">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?auto=format&fit=crop&w=800&q=80" alt="Weather dashboard interface mockup" class="project-img">
+                            <div class="project-overlay">
+                                <a href="https://github.com/archanagottam123-png/github-portfolio" target="_blank" class="project-link" aria-label="GitHub Repo"><i data-lucide="github"></i></a>
+                                <a href="#" class="project-link" aria-label="Live Demo"><i data-lucide="external-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-meta">Frontend App</span>
+                            <h3 class="project-title">Skycast - Weather Dashboard</h3>
+                            <p class="project-desc">A highly responsive, elegant weather application integrating live third-party REST APIs. Features visual charts of temperature forecast metrics and search logs.</p>
+                            <div class="project-tags">
+                                <span class="proj-tag">HTML5</span>
+                                <span class="proj-tag">Vanilla JS</span>
+                                <span class="proj-tag">REST API</span>
+                                <span class="proj-tag">CSS Flexbox</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Timeline Section -->
+        <section class="education" id="education">
+            <div class="section-container" data-aos="fade-up">
+                <div class="section-header">
+                    <span class="section-tag">&lt;education_timeline&gt;</span>
+                    <h2 class="section-title">Education & Milestones</h2>
+                </div>
+                
+                <div class="timeline">
+                    <!-- Milestone 1 -->
+                    <div class="timeline-item" data-aos="fade-right">
+                        <div class="timeline-badge-dot"></div>
+                        <div class="timeline-panel glass-panel">
+                            <span class="timeline-date">2023 - 2027</span>
+                            <h3 class="timeline-title">Bachelor of Engineering (B.E.)</h3>
+                            <span class="timeline-institution">Anna University Affiliate College, Chennai</span>
+                            <p class="timeline-desc">Specialized in Computer Science & Engineering. Solid foundations in Object-Oriented Programming, DBMS, Computer Networks, Software Engineering, and Operating Systems. Graduated with honors.</p>
+                        </div>
+                    </div>
+
+                    <!-- Milestone 2: AI Internship -->
+                    <div class="timeline-item" data-aos="fade-left">
+                        <div class="timeline-badge-dot"></div>
+                        <div class="timeline-panel glass-panel">
+                            <span class="timeline-date">July 2025 - August 2025</span>
+                            <h3 class="timeline-title">Artificial Intelligence Intern</h3>
+                            <span class="timeline-institution">EdiGlobe (Zhagaram Technologies)</span>
+                            <p class="timeline-desc">Successfully completed an internship in the Artificial Intelligence domain. Worked on AI-driven problem solving, model testing, and analytical engineering. (Unique verification ID: EGN1431)</p>
+                        </div>
+                    </div>
+
+                    <!-- Milestone 3: Web Development Certification -->
+                    <div class="timeline-item" data-aos="fade-right">
+                        <div class="timeline-badge-dot"></div>
+                        <div class="timeline-panel glass-panel">
+                            <span class="timeline-date">2025 (3 Months)</span>
+                            <h3 class="timeline-title">Full Stack Web Development Certification</h3>
+                            <span class="timeline-institution">Self-paced & Guided Projects</span>
+                            <p class="timeline-desc">Developed and deployed end-to-end full-stack applications. Completed deep-dives into Javascript frameworks, REST API construction, relational database integration, and Git version control workflows.</p>
+                        </div>
+                    </div>
+
+                    <!-- Milestone 4: Secondary Education -->
+                    <div class="timeline-item" data-aos="fade-left">
+                        <div class="timeline-badge-dot"></div>
+                        <div class="timeline-panel glass-panel">
+                            <span class="timeline-date">2022</span>
+                            <h3 class="timeline-title">Higher Secondary Education (Class XII)</h3>
+                            <span class="timeline-institution">State Board, Chennai</span>
+                            <p class="timeline-desc">Focused on Mathematics, Physics, Chemistry, and Computer Science. Secured top percentage, leading to engineering admissions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="section-container" data-aos="fade-up">
+                <div class="section-header">
+                    <span class="section-tag">&lt;contact_info&gt;</span>
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="section-subtitle">Recruiters, hiring managers, or anyone looking to collaborate—let's connect!</p>
+                </div>
+
+                <div class="contact-wrapper">
+                    <div class="contact-info-panel" data-aos="fade-right">
+                        <div class="info-card glass-panel">
+                            <div class="info-icon"><i data-lucide="mail"></i></div>
+                            <div class="info-details">
+                                <h4>Email Me</h4>
+                                <a href="mailto:archanagottam123@gmail.com">archanagottam123@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="info-card glass-panel">
+                            <div class="info-icon"><i data-lucide="map-pin"></i></div>
+                            <div class="info-details">
+                                <h4>Location</h4>
+                                <p>Chennai, Tamil Nadu, India</p>
+                            </div>
+                        </div>
+
+                        <div class="social-connect">
+                            <h4>Connect Online</h4>
+                            <div class="social-icons">
+                                <a href="https://github.com/archanagottam123-png" target="_blank" aria-label="GitHub"><i data-lucide="github"></i></a>
+                                <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+                                <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i data-lucide="twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-panel glass-panel" data-aos="fade-left">
+                        <form id="contact-form" autocomplete="off">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="form-name">Your Name</label>
+                                    <input type="text" id="form-name" placeholder="John Doe" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="form-email">Your Email</label>
+                                    <input type="email" id="form-email" placeholder="john@example.com" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-subject">Subject</label>
+                                <input type="text" id="form-subject" placeholder="Job Opportunity" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-message">Message</label>
+                                <textarea id="form-message" rows="5" placeholder="Hi Archana, I saw your portfolio and..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block" id="form-submit-btn">
+                                Send Message <i data-lucide="send" class="icon-sm"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p class="footer-copyright">&copy; 2026 Archana Gottam. All Rights Reserved.</p>
+            <p class="footer-designed">Designed & Built with <i data-lucide="heart" class="heart-icon"></i> in Chennai</p>
+        </div>
+    </footer>
+
+    <!-- Toast Notifications -->
+    <div class="toast-container" id="toast-container"></div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+</body>
+</html>
